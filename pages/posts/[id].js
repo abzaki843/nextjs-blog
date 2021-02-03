@@ -27,7 +27,8 @@ export async function getStaticPaths() {
     fallback: false
   }
 }
-// no chnage there is is only to check commit
+// no chnage there is is only to check commitg
+// no comments it is only to check
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id)
   return {
