@@ -27,6 +27,7 @@ export async function getStaticPaths() {
     fallback: false
   }
 }
+// no chnage there is is only to check commit
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id)
   return {
